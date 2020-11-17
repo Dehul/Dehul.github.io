@@ -1,37 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'PT Scan', sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
-.container{
-  padding: 0 100px 0 100px;
-}
-
-nav ul,
-.main-info-section,
-.work-category {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 body {
-  background-color: #252627;
+  scroll-behavior: smooth;
+  background-image: url("/img/background.jpg");
 }
 
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px 0;
+h1, h3, p {
+  color: white;
 }
 
-.navbar {
-  background-color: #181818;
-}
